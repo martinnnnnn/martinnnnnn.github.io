@@ -1,0 +1,36 @@
+STYLE :
+	- changement icones
+
+HOME PAGE :
+	- faire pages projets
+		- rain engine
+			- vidéo
+			
+		- school project
+			- DOOM
+			- BW IA
+			- OpenGL
+			- The Witnesses
+
+			- Rubik's cube
+		- game jam
+			- PANPAN
+			- Sweep hard
+			- Sigmund
+			- Knight brawl
+			- are you ok ?
+		
+ABOUT :
+	- traduire cv
+	- retoucher cv
+
+
+GIT :
+	- mettre à jour Rain
+	- push hindrance
+	- faire des .MD
+
+
+Linked In :
+	- traduire projet en anglais
+	- photo

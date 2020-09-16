@@ -1,202 +1,262 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<!-- MVP.css quickstart template: https://github.com/andybrewer/mvp/ -->
+
+
+<!-- 
+    - ASCEND : ask for video, make text
+    - RAIN : make video(s), make text
+    - WOC : make text, make video, clean up code
+
+    - make sure resume is finished
+
+    - blog : comment it out if no blog post
+
+    - code clean up :
+        - rain
+        - woc
+
+    - find out how to preserve hyperlinks in pdf
+ -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Martin Penard</title>
-<!--bootstarp-css-->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--/bootstarp-css -->
-<!--css-->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--/css-->
-<!--fonts-->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700' rel='stylesheet' type='text/css'>
-<!--fonts-->
-<!--js-->
-<script src="js/jquery.min.js"></script>
-<!--/js-->
-<!-- animated-css -->
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="js/wow.min.js"></script>
-		<script>
-		 new WOW().init();
-		</script>
-<!-- animated-css -->
+    <link rel="icon" href="https://via.placeholder.com/70x70">
+    <link rel="stylesheet" href="./mvp.css">
+
+    <meta charset="utf-8"> 
+    <meta name="description" content="My description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Martin Pénard</title>
 </head>
+
 <body>
-<!--header-->
-<div class="header">
-	<div class="header-top">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt=""/></a>
-			</div>
-				<div class="header-right">
-					<div class="menu">
-					<span class="menu"> </span>
-						<ul class="navigatoin">
-						<li><a href="index.html" class="active">Home</a></li>
-						  <li><a href="about.html">Resume</a></li>
-						 <!--  <li><a href="contact.html">Contact</a></li> -->
-						</ul>
-						<div class="clearfix"> </div>
-											<!--script-nav -->	
-			<script>
-					$("span.menu").click(function(){
-						$("ul.navigatoin").slideToggle("slow" , function(){
-						});
-					});
-					</script>
-						<div class="clearfix"> </div>
-					<!-- /script-nav -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <!-- <li><a href="#blog">Blog</a></li> -->
+            </ul>
+            <div>
+                <a href="mailto:martin.penard@gmail.com"><img width="22" height="22" src="data/email.png"></a>
+                <a href="https://github.com/martinnnnnn"><img width="22" height="22" src="data/github.png"></a>
+                <a href="https://www.linkedin.com/in/martin-penard/"><img width="22" height="22" src="data/linkedin.svg"></a>
+            </div>
+        </nav>
 
-					</div>
-				</div>
-						<div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-	<div class="line">
-		<a href="#"><img src="images/line.png" class="img-responsive" alt=""/></a>
-		<div class="clearfix"> </div>
-	</div>
-	<div class="clearfix"> </div>
-<!--/header-->
-<!--portfolio-->
-<ul id="filters">
-					<li><span class="filter active wow bounceIn" data-wow-delay="0.4s"" data-filter="app card school logo internship personal">All</span></li>
-					<li><span class="filter wow bounceIn" data-wow-delay="0.4s"" data-filter="school">SCHOOL</span></li>
-					<li><span class="filter wow bounceIn" data-wow-delay="0.4s"" data-filter="internship">INTERNSHIP</span></li>
-					<li><span class="filter wow bounceIn" data-wow-delay="0.4s"" data-filter="personal">PERSONAL</span></li>
-				</ul>
-<div class="portfolio">
-  <div class="portfolio-info">
-	<div class="container">
-		
-				<div id="portfoliolist">
+        <h1>Martin Pénard</h1>
+        <p>I have been, for the last two years, part of the game engine team for Ubisoft's Just Dance games, where I have mostly worked on porting the game on various platforms (Xbox Series S/X, PS5, Statdia, Xbox one, PS4, etc.).</p>
+        <p>Before that, I completed a Game Programming Master's degree at CNAM-ENJMIN in Angouleme (France).</p>
+        <p>I have currently on the lookout for new job opportunies in France and Europe!</p>
+        <p>This is a website about my professional and personal projects.</p>
+        <br>
+    </header>
+    <main>
+        <hr>
+        <section>
+            <header id="projects">
+                <h2>Projects</h2>
+                <p>Here's various projects I worked on for school, during gamejam, some personal projects, etc.<I></I></p>
+            </header>
 
-					<div class="portfolio school mix_all" data-cat="school" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn capt" data-wow-delay="0.4s">		
-							<a href="hindrance.html" class="b-link-stripe b-animate-go">
-								 <img src="images/hindrance.png" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">HINDRANCE</h2>
-								  <!-- <p class="b-animate b-from-left    b-delay03 ">View</p> -->
-								</div>
-							</a>
-		                </div>
-					</div>
-					<div class="portfolio internship mix_all" data-cat="internship" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn capt" data-wow-delay="0.4s">		
-							<a href="twaig.html" class="b-link-stripe b-animate-go">
-								 <img src="images/twaig.jpg" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">TWAIG</h2>
-								  <!-- <p class="b-animate b-from-left    b-delay03 ">View</p> -->
-								</div>
-							</a>
-		                </div>
-					</div>
-					<div class="portfolio school mix_all" data-cat="school" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn capt" data-wow-delay="0.4s">		
-							<a href="flampage.html" class="b-link-stripe b-animate-go">
-								 <img src="images/flampage.png" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">FLAMPAGE</h2>
-								  <!-- <p class="b-animate b-from-left    b-delay03 ">View</p> -->
-								</div>
-							</a>
-		                </div>
-					</div>
-					<div class="portfolio personal mix_all" data-cat="personal" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn capt" data-wow-delay="0.4s">		
-							<a href="rain.html" class="b-link-stripe b-animate-go">
-								 <img src="images/rain.jpg" alt="" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">RAIN ENGINE</h2>
-								  <!-- <p class="b-animate b-from-left    b-delay03 ">View</p> -->
-								</div>
-							</a>
-		                </div>
-					</div>
-					<div class="portfolio personal mix_all" data-cat="personal" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn capt" data-wow-delay="0.4s">		
-							<a href="panpan.html" class="b-link-stripe b-animate-go">
-								 <img src="images/panpan.png" alt=""/><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">PANPAN</h2>
-								  <!-- <p class="b-animate b-from-left    b-delay03 ">View</p> -->
-								</div>
-							</a>
-		                </div>
-					</div>
-					<div class="portfolio personal mix_all" data-cat="personal" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper wow bounceIn capt" data-wow-delay="0.4s">		
-							<a href="gamejams.html" class="b-link-stripe b-animate-go">
-								 <img src="images/gamejams.jpg" alt=""/><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 ">More Game Jams</h2>
-								  <!-- <p class="b-animate b-from-left    b-delay03 ">View</p> -->
-								</div>
-							</a>
-		                </div>
-					</div>
-					
-					<div class="clearfix"></div>	
-				</div>
-				<!-- Script for gallery Here -->
-				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-					$(function () {
-						
-						var filterList = {
-						
-							init: function () {
-							
-								// MixItUp plugin
-								// http://mixitup.io
-								$('#portfoliolist').mixitup({
-									targetSelector: '.portfolio',
-									filterSelector: '.filter',
-									effects: ['fade'],
-									easing: 'snap',
-									// call the hover effect
-									onMixEnd: filterList.hoverEffect()
-								});				
-							
-							},
-							
-							hoverEffect: function () {
-							
-								// Simple parallax effect
-								$('#portfoliolist .portfolio').hover(
-									function () {
-										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-									},
-									function () {
-										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-									}		
-								);				
-							
-							}
-				
-						};
-						
-						// Run the show!
-						filterList.init();	
-					});	
-					</script>
-				<!-- Gallery Script Ends -->
-			<div class="clearfix"></div>
-	</div>
-	</div>
-</div>	
-<div class="footer">
-	<!-- <div class="p-button">
-			<a href="#" class="Donec btn-1 btn1-1b">Hire me!</a></br>
-			<div class="sc-icons">
-			</div>
-			<div class="sc-icons-1">
-			</div>
-	</div> -->
-	<div class="copy-rights">
-					 <p>Template by<a href="http://w3layouts.com/"> W3layouts.</a></p>
-				</div>
-</div>			
+            <!-- Internship -->
+            <header id="projects">
+                <h3>Internship</h3>
+            </header>
+    
+            <aside>
+                <h3>Twaig - Bulwark Studios</h3>
+                <p><small>May 2016 – June 2016</small></p>
+                <p>Student Internship - Gameplay programming</p>
+                <p>Twaig is a match-3 type game on mobile (Android and iOS) developed by Bulwark Studios. I worked on this game during a 2 months long internship. My mains missions in Bulwark were:</p>
+                <ul>
+                    <li>Implementing gameplay mecanics</li>
+                    <li>Implementing UI/UX features</li>
+                    <li>Assets Integration (Spine2D animations, musics, sounds, images)</li>
+                    <li>Debugging</li>
+                    <li>Level design and balancing</li>
+                </ul>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/nKLC-Ee0Tu0" frameborder="0" allowfullscreen></iframe>
+
+            </aside>
+    
+            <!-- School projects -->
+            <header id="projects">
+                <h3>School projects</h3>
+            </header>
+            <aside>
+                <h3>Ascend - Unreal Engine</h3>
+                <p><small>December 2017 - Febuary 2018</small></p>
+                <p>Final project at ENJMIN, by a team of 10 students. I mainly worked on enemies's AI, physics based animation, and asset integration.</p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/FlZ9bfvq6nk" frameborder="0" allowfullscreen></iframe>
+            </aside>
+            <aside>
+                <h3>Hindrance - Unity</h3>
+                <p><small>March 2017 – June 2017</small></p>
+                <p>Hindrance is a dance based game on tablet, made by a group of 5 in 4 months at ENJMIN. Sole developper on the project, I worked on the following tasks:</p>
+                <ul>
+                    <li>Root Motion usage to improve the game feel for the dancer's movements.</li>
+                    <li>Shader programming to render the character : glow shader for the light dots, modified post process motion blur applied only on the character to create light trails.</li>
+                    <li>Shape recognition algorithme (vertical and horizontal lines, "bridge", loop going up or down, etc.) to allow control over the character by drawing on the screen.</li>
+                    <li>UI flow integration</li>
+                    <li>Sound assets integration using Wwise pluggin in Unity, to create interactive music during the dancing phases of gameplay.</li>
+                    <li>Graphical assets integration.</li>
+                </ul>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/q3RUc28E2tY" frameborder="0" allowfullscreen></iframe>
+            </aside>
+            <aside>
+                <h3>Flampage - Unity</h3>
+                <p><small>Nov 2016 – Dec 2016</small></p>
+                <p>Flampage is a 2 months long project produced in my first year at ENJMIN. Sole developper on the project, I worked on the following tasks:</p>
+                <ul>
+                    <li>Gameplay mechanics, including</li>
+                    <ul>
+                        <li>Main Character (movements, dash, 360° shooting, damage handling, etc.)</li>
+                        <li>Enemies IA which had 4 different behaviour (attacking the Monster, dash mecanism to avoid player bullets, following the player in case of damage and following exclusively the player)</li>
+                        <li>Enemy waves spawing</li>
+                    </ul>
+                    <li>File parser (.tsv) to be able to edit balancing values and enemy waves timing directly in a google sheet</li>
+                    <li>Object pooling implementation for better perfomances</li>
+                    <li>Assets integration</li>
+                    <li>Creation of an algorithm to handle music depending on the game state (player's life, which stage the player is at)</li>
+                </ul>
+                <a href="https://zeantwan.itch.io/flampage">itch.io page</a><br/><br/>
+                <a href="https://github.com/martinnnnnn/ShootWithThierry">Github repository</a>
+                <p></p>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/UA9MxrXjB6E" frameborder="0" allowfullscreen></iframe>
+            </aside>
+
+        <!-- Personal projects -->
+        <header id="projects">
+            <h3>Personal Projects</h3>
+        </header>
+
+        
+
+<!-- Rain Engine is a small project I am working on, and investing some time in whenever I get the chance. My goal is to create a 3D game with the engine when enough features are implemented and teach myself along the way.
+    I am currently working on the 3D physics part of the engine. Things that are (mostly) working now are:
+
+Window handling (Win32 API)
+Game loop
+Parsing configuration and scene files (Json)
+Using a ECS library (entt) to handle world logic
+3D rendering with OpenGL (really basic for now)
+3D physics (applying forces, some collision detection and handling)
+3D Model loading (FBX SDK)
+Shader loading
+2D text rendering
+
+What I am currently working on:
+
+Convex Mesh collision detection
+Collision handling -->
+        <aside>
+            <h3>Rain Engine - C++, OpenGL</h3>
+            <p>Rain Engine is a small game engine I am working on, and investing some time in whenever I get the chance.</p>
+            <p>What is working  now:</p>
+            <ul>
+                <li>Window handling (Win32 API)</li>
+                <li>Input handle (DirectInput)</li>
+                <li>Parsing configuration and scene files (Json)</li>
+                <li>Basic OpenGL rendering</li>
+                <li>Voxel rendering (using instancing)</li>
+                <li>Transvoxel algorithm implementation</li>
+                <li>Some 3D physics elements (forces, springs, collision detection)</li>
+            </ul>
+            <p><a href="https://github.com/martinnnnnn/rain">Github repository</a></p>
+            
+        </aside>
+        <aside>
+            <h3>Multiplayer card game - Unity</h3>
+            <p>Small project using TCP to play multiplayer card games. Made by a team of two.</p>
+            
+            <p><a href="https://github.com/martinnnnnn/WOC">Github repository</a></p>
+        </aside>
+        
+        <!-- Game Jams -->
+
+        <header id="projects">
+            <h3>Game Jams</h3>
+        </header>
+
+        <aside>
+            <h3>Snow Bunny</h3>
+            <p><small>Game Jam 2019</small></p>
+            <p>3D game in full back and white, with a bunny. Made by a team of two.</p>
+            <p><a href="https://github.com/martinnnnnn/SnowBunny">Github repository</a></p>
+            <video width="100%" height="400" controls>
+                <source src="data/snow_rabbit.mp4" type="video/mp4">
+            </video>
+
+        </aside>
+
+        <aside>
+            <h3>Pan Pan - Unity</h3>
+            <p><small>Enjmin Game Jam</small></p>
+            <p>2D plateformer game inspired by Super Meat Boy, made in 48 hours. I worked on :</p>
+            <ul>
+                <li>The main character's physics</li>
+                <li>IA behaviours</li>
+                <li>Assets integration</li>
+            </ul>
+            <p><a href="https://krazy-foxxx.itch.io/pan-pan-pan">itch.io game page</a></p>
+        </aside>
+
+        <aside>
+            <h3>Sweep hard. Hard! - Unity</h3>
+            <p><small>Enjmin Game Jam</small></p>
+            <p>2D game made in 48 hours</p>
+            <p><a href="https://sweep-hard-hard.itch.io/sweep-hard-hard">itch.io game page</a></p>
+            <p><a href="https://github.com/martinnnnnn/ENJAM">Github repository</a></p>
+        </aside>
+
+        <aside>
+            <h3>Knight brawl - Unity</h3>
+            <p><small>Game Jam, 2015</small></p>
+            <p>Knight Brawl is a 2 player strategy game in 3D made in 48 hours.</p>
+            <p><a href="https://github.com/EmrysMyrddin/Game-of-Depth">Github repository</a></p>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/sRvA_U3Gpoo" frameborder="0" allowfullscreen></iframe>
+        </aside>
+        
+
+        <aside>
+            <h3>Sigmund</h3>
+            <p><small>Les Utopiales Game Jam 2014</small></p>
+            <p>2D game using an isometric view made in 48 hours.</p>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/7rJr2ENntuM" frameborder="0" allowfullscreen></iframe>
+        </aside>
+
+        <aside>
+            <h3>Are you OK ?</h3>
+            <p>2D point and click game made in 48 hours.</p>
+            <p><small>Global Game Jam 2015</small></p>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/O3m4VNLyIY4" frameborder="0" allowfullscreen></iframe>
+        </aside>
+
+        <hr>
+        <section>
+            <header id="resume">
+                <h2>Resume</h2>
+                <p>Here's my resume, which you can also download <a href="data/martin_penard_resume.pdf">here</a>.</p>
+            </header>
+            <!-- <iframe src="resume.pdf" width="100%" height="1000px" frameborder="0"></iframe> -->
+            <img src="data/martin_penard_resume.png" width="80%" alt=""/>
+        </section>
+        <hr>
+        <!-- <section id="blog">
+            <header id="resume">
+                <h2 >Blog</h2>
+                <p>I have added this "blog" section in the hope it motivates me to write stuff to put on a blog!</p>
+                <p>... it has not worked so far</p>
+            </header>
+        </section> -->
+        
+    </main>
+    <footer>
+        <hr>
+    </footer>
 </body>
+
 </html>
